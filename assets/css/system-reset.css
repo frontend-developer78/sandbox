@@ -1,9 +1,3 @@
-@charset "UTF-8";
-@import "/style/home.css";
-@import url("/style/home.css");
-@import url("/style/sign-up.css");
-@import url("/style/login.css");
-
 @font-face{
     font-family: IRANYekanWebMedium;
     src: url("../fonts/IRANYekanWebMedium.eot") format("eot"),

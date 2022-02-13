@@ -1,3 +1,7 @@
+@charset "UTF-8";
+@import "../assets/css/system-reset.css";
+@import url("../assets/css/system-reset.css");
+
 html{
     scroll-behavior: smooth;
 }

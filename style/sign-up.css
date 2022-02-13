@@ -1,3 +1,6 @@
+@import "home.css";
+@import url("home.css");
+
 .overlay-bg{
     position: absolute;
     z-index: -10;
