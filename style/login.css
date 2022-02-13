@@ -1,0 +1,14 @@
+.form-container .custom-left-form-section img{
+    border-radius: 10px 0 0 10px;
+}
+.login-right-form-section{
+    margin-right: 110px;
+}
+@media only screen and (max-width:1200px){
+    .login-right-form-section{
+        margin-right: 0px!important;
+    }
+}
+.overlay-bg-login{
+    height: 100%!important;
+}
