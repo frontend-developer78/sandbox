@@ -1,5 +1,6 @@
 @import "home.css";
 @import url("home.css");
+@import url("sign-up.css");
 
 .form-container .custom-left-form-section img{
     border-radius: 10px 0 0 10px;
