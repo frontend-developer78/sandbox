@@ -1,0 +1,95 @@
+@import "home.css";
+@import url("home.css");
+
+/* Start products navbar style */
+.custom-products-navbar-bg{
+    position: unset!important;
+    top: unset;
+    z-index: 0;
+}
+.custom-breadcrumb{
+    padding: 0.6rem 1rem;
+    background-color: rgb(236, 234, 234);
+}
+.custom-breadcrumb .breadcrumb-item a{
+    font-size: 14px;
+    color: rgb(104, 104, 104);
+    text-decoration: none;
+}
+.custom-breadcrumb .breadcrumb-item.active{
+    font-size: 14px;
+    color: rgb(84, 7, 209);
+}
+/* Start products elements section style */
+.custom-product-right-element .card{
+    border: 1px solid rgb(237 237 237 / 69%);
+}
+.custom-product-right-element .custom-card-header{
+    font-size: 15px;
+    color: rgb(103, 11, 189);
+    background-color: rgb(203 203 203 / 11%);
+    border-bottom: none;
+    padding-right: 8px;
+}
+.custom-product-right-element .custom-list-group li a{
+    font-size: 14px;
+    color: rgb(90, 90, 90);
+    transition: all 0.5s ease;
+}
+.custom-product-right-element .custom-list-group li a:hover{
+    color: rgb(19, 63, 209);
+    margin-right: 10px;
+}
+.custom-product-right-element .custom-list-group li a i{
+    color: rgb(118, 6, 209);
+}
+.custom-product-right-element .custom-list-group li{
+    border: 1px solid rgba(240, 240, 240, 0.685);
+}
+.custom-product-left-element .custom-chair-card{
+    border-radius: 0;
+}
+.custom-product-left-element .custom-chair-card .custom-chair-card-body span s{
+    font-size: 12px;
+    color: rgb(187, 187, 187);
+}
+.custom-product-left-element .custom-chair-card .custom-chair-card-body span.badge{
+    font-size: 12px;
+    margin-left: 6px;
+}
+.page-link{
+    padding: 0.4rem 0.74rem;
+    color: #242424;
+    border: none;
+    margin-right: 12px;
+    border-radius: 100%;
+}
+.page-item.active .page-link{
+    z-index: 3;
+    color: #fff;
+    background-color: #f12a3a;
+    border-color: #210291;
+}
+.page-link:hover{
+    color: rgb(236, 22, 76);
+    background-color: #fff;
+    border: none;
+}
+.page-link:focus {
+    z-index: 3;
+    outline: 0px;
+    box-shadow: none;
+}
+.border-radius-0{
+    border-radius: 0;
+    background-color: transparent!important;
+}
+.newsletter-container .overlay-bg-products{
+    background-image: url("../assets/image/form-bg/e-bg.jpg");
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
