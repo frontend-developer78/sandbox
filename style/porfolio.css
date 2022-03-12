@@ -154,3 +154,39 @@ body::-webkit-scrollbar-track {
     font-size: 14px;
     color: #5a5a5a;
 }
+.Consulting-section h4{
+    color: #07186e;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.Consulting-section input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #c7c7c7;
+    border-radius: 0;
+}
+.Consulting-section .form-control:focus{
+    color: rgb(59, 59, 59);
+    border-bottom: 2px solid #4b4b4b;
+    background-color: transparent;
+    border-color: none;
+    outline: 0px;
+    box-shadow: none;
+}
+.Consulting-section .form-control::placeholder{
+    font-size: 14px;
+    color: #8f8f8f;
+}
+.Consulting-section label.custom-control-label{
+    font-size: 14px;
+    color: #0320af;
+}
+.Relationship-section{
+    margin-top: 150px;
+}
+.Relationship-section h4{
+    font-size: 17px;
+}
+.Relationship-section img{
+    border-radius: 10px;
+}
