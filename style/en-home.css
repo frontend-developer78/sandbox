@@ -1,0 +1,166 @@
+@import url("home.css");
+/* Start navbar section style */
+.nav-section{
+    background-color: rgba(236, 236, 236, 0.521);
+    position: fixed;
+    z-index: 1000;
+}
+.custom-apply-modal:active ~ .nav-section{
+    position: static;
+}
+.custom-navbar-menu .nav-link{
+    color: rgb(49, 49, 49)!important;
+    padding-right: 25px!important;
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.custom-navbar-menu .nav-link i{
+    vertical-align: -2px;
+    color: #272727;
+}
+.custom-navbar-menu .nav-link:hover{
+    color: rgb(255, 5, 5)!important;
+}
+.custom-navbar-menu .navbar-brand{
+    color: rgb(255, 5, 122);
+    font-family: 'Sansita Swashed', cursive;
+}
+.custom-apply-modal .modal-content{
+    background-color: rgb(235, 235, 235);
+}
+.custom-apply-modal .modal-title{
+    font-size: 15px;
+    color: rgb(6, 6, 112);
+}
+.custom-apply-modal .modal-title i{
+    vertical-align: -4px;
+    font-size: 22px;
+    color: #52a8e5;
+}
+.custom-apply-modal .modal-body label{
+    font-size: 14px;
+    color: #05426e;
+}
+.custom-apply-modal .modal-header{
+    border-bottom: none;
+}
+@media only screen and (max-width:992px){
+    .nav-section{
+        background-color: rgb(236, 236, 236);
+    }
+    .custom-navbar-menu .nav-link{
+        color: rgb(70, 70, 70)!important;
+    }
+    .custom-carousel-header .carousel-indicators{
+        bottom: 0!important;
+    }
+    .hero-header{
+        position: static!important;
+    }
+}
+/* Start hero header style */
+.custom-carousel-header .carousel-indicators{
+    bottom: 25px;
+}
+.custom-carousel-header .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: 6px;
+    margin-right: 6px;
+    background-color: #fff;
+    transition: opacity .6s ease;
+}
+.custom-carousel-header .carousel-indicators li:hover{
+    background-color: red;
+    opacity: 1;
+}
+.custom-carousel-header .carousel-inner img{
+    filter: brightness(0.8);
+}
+.custom-carousel-header .carousel-inner .carousel-caption {
+    position: absolute;
+    left: 45%;
+    bottom: 100px;
+    right: 0;
+    z-index: 10;
+    padding: 40px 0;
+    color: rgb(54, 54, 54);
+    background-color: rgba(255, 255, 255, 0.671);
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+}
+.custom-carousel-header .carousel-inner .carousel-caption h5{
+    color: darkblue;
+}
+.custom-carousel-header .carousel-inner .custom-caption-mail{
+    left: 20%;
+    bottom: 32%;
+    right: 20%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.custom-carousel-header .carousel-inner .custom-caption-mail p{
+    font-size: 14px;
+}
+.custom-carousel-header .carousel-inner .custom-caption-mail input::placeholder{
+    font-size: 15px;
+    color: #272727;
+}
+.custom-carousel-header .carousel-inner .custom-caption-mail input{
+    background-color: rgba(255, 255, 255, 0.329);
+    border: 1px solid rgba(94, 94, 94, 0.644);
+}
+.custom-carousel-header .carousel-inner .custom-caption-mail input:focus{
+    color: #495057;
+    background-color: #fff;
+    border: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.custom-caption-mail .link-social-media p{
+    color: #000;
+}
+.custom-caption-mail .link-social-media a i{
+    vertical-align: -11px;
+    transition: all 0.4s ease;
+}
+.custom-caption-mail .link-social-media a i:hover{
+    transform: scale(1.2);
+}
+.custom-caption-mail .link-social-media a i.fa-instagram{
+    color: #b407a6;
+}
+.custom-caption-mail .link-social-media a i.fa-telegram-plane{
+    color: #05a3ff;
+}
+.custom-caption-mail .link-social-media a i.fa-facebook-square{
+    color: #0618bb;
+}
+.custom-carousel-header .carousel-inner .custom-caption-apply{
+    left: 0;
+    bottom: 22%;
+    right: 40%;
+    padding: 50px 20px;
+    border-radius: 0 10px 10px 0;
+}
+.custom-carousel-header .carousel-inner .custom-caption-programming{
+    left: 30%;
+    bottom: 20%;
+    right: 30%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.custom-caption-programming ul li.custom-nav-item::before{
+    content: '/';
+    position: absolute;
+    font-size: 32px;
+    margin-top: -2px;
+    margin-right: -53px;
+}
+.custom-caption-programming img{
+    border-radius: 100%;
+    position: absolute;
+    top: -73px;
+    right: 197px;
+    border: 7px solid #ffffff;
+}

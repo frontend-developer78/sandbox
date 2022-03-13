@@ -32,9 +32,9 @@ body{
     box-sizing: border-box;
     font-family: iranyekanwebmediumfanum;
 }
-body{
+/* body{
     direction: rtl;
-}
+} */
 a{
     text-decoration: none;
 }

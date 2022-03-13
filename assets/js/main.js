@@ -105,9 +105,9 @@ $(document).ready(function () {
 
 
 $(".tt").tooltip("show");
-// $('.popovers').popover({
-//   trigger: 'hover'
-// })
+$('.popovers').popover({
+  trigger: 'hover'
+})
 $(".popovers").popover("show");
 $(".tot").toast("show");
 owl-carousel-brand

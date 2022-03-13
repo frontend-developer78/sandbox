@@ -1,0 +1,192 @@
+@import url("../assets/css/system-reset.css");
+
+html{
+    scroll-behavior: smooth;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(156, 51, 255);
+    border-radius: 10px;
+    width: 8px;
+}
+body::-webkit-scrollbar-track {
+    background-color: rgb(255, 246, 246);
+}
+/* Start navbar menu section style*/
+.menu-wrapper-section{
+    background: linear-gradient(to bottom, #07186e, #000312);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.menu-wrapper-section h3{
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+.menu-wrapper-section h3 span{
+    font-family: 'Playfair Display', serif;
+    color: #ffc107;
+}
+.navbar-porfolio-menu li a{
+    color: rgb(241, 241, 241);
+    font-size: 17px;
+    transition: all 0.4s ease;
+}
+.navbar-porfolio-menu li a i{
+    transition: all 0.4s ease;
+    color: #ff9800;
+}
+.navbar-porfolio-menu li a:hover{
+    transform: scale(1.1);
+    color: #ff9800;
+}
+.navbar-porfolio-menu li a:hover i{
+    color: rgb(241, 241, 241);
+}
+.social-media-acount-link{
+    margin-bottom: 47px;
+}
+.social-media-acount-link li a i{
+    font-size: 23px;
+    color: antiquewhite;
+    transition: all 0.4s ease;
+}
+.social-media-acount-link li a i:hover{
+    transform: scale(1.2);
+}
+.social-media-acount-link li a i.fa-instagram:hover{
+    color: crimson;
+}
+.social-media-acount-link li a i.fa-telegram-plane:hover{
+    color: rgb(7, 192, 224);
+}
+.social-media-acount-link li a i.fa-facebook-f:hover{
+    color: rgb(2, 17, 233);
+}
+.social-media-acount-link li a i.fa-youtube:hover{
+    color: rgb(252, 8, 8);
+}
+.content-porfolio{
+    margin-right: 25%;
+    padding: 130px 10px;
+    background-color: rgb(240, 240, 240);
+}
+.intro-content-section h6{
+    color: #2a36eb;
+}
+.intro-content-section h2{
+    color: #585858;
+}
+.intro-content-section h2 span{
+    color: #f83535;
+}
+.intro-content-section .abllity-front-content{
+    font-size: 14px;
+    color: #7a7a7a;
+}
+.intro-content-section .about-min-intro-content{
+    font-size: 15px;
+    line-height: 26px;
+    color: #3f3f3f;
+}
+.intro-content-section a i{
+    vertical-align: -1px;
+    color: #363636;
+}
+.profile-image-intro{
+    border-radius: 80% 40% 0 40%;
+    transform: rotate(20deg);
+    border: 4px solid #657df7;
+}
+.about-section{
+    margin-top: 150px;
+}
+.about-section ul li a{
+    color: #ff4800;
+}
+.about-section ul li p{
+    padding: 0 1rem;
+    color: #585858;
+    font-size: 15px;
+}
+.about-section img{
+    border-radius: 20px 20px 100% 100%;
+    background: linear-gradient(to bottom, #07186e9a, #000312);
+}
+.abillity-section p{
+    font-size: 15px;
+}
+.abillity-section .progress{
+    margin-top: 10px;
+}
+.abillity-card-wrapper .abillity-card{
+    background: linear-gradient(to bottom, #142ca3e8, #000312);
+}
+.abillity-card-wrapper .abillity-card p{
+    color: rgb(235, 235, 235);
+}
+.abillity-card-wrapper .abillity-card p:nth-child(2){
+    font-size: 20px;
+    color: #ff9800;
+}
+.shopping-section .shopping-card{
+    background-color: rgb(230, 230, 230);
+    box-shadow: 0 0 8px #2e2e2e47;
+    transition: all 0.4s ease;
+}
+.shopping-section .shopping-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #2e2e2e75;
+}
+.shopping-section .shopping-card i{
+    font-size: 32px;
+    border-radius: 100%;
+    background-color: #051c92;
+    color: #ff9800;
+}
+.shopping-section .shopping-card h4{
+    color: #3a3a3a;
+}
+.shopping-section .shopping-card p{
+    font-size: 14px;
+    color: #5a5a5a;
+}
+.Consulting-section h4{
+    color: #07186e;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+.Consulting-section input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #c7c7c7;
+    border-radius: 0;
+}
+.Consulting-section .form-control:focus{
+    color: rgb(59, 59, 59);
+    border-bottom: 2px solid #4b4b4b;
+    background-color: transparent;
+    border-color: none;
+    outline: 0px;
+    box-shadow: none;
+}
+.Consulting-section .form-control::placeholder{
+    font-size: 14px;
+    color: #8f8f8f;
+}
+.Consulting-section label.custom-control-label{
+    font-size: 14px;
+    color: #0320af;
+}
+.Relationship-section{
+    margin-top: 150px;
+}
+.Relationship-section h4{
+    font-size: 17px;
+}
+.Relationship-section img{
+    border-radius: 10px;
+}
